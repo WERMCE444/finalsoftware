@@ -2,14 +2,14 @@ name: Github Actions Maven Build Example
 
 on:
   push:
-    branches: [main]
+    branches: [finalsoftware]
     
 jobs:
   build-on-ubuntu:
     runs-on: ubuntu-latest
 
     steps:
-      - name: Step 1 - Checkout main branch from Github
+      - name: Step 1 - Checkout finalsoftware branch from Github
         uses: actions/checkout@v2
 
       # Setup JDK
