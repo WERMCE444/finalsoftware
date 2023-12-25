@@ -2,7 +2,7 @@ name: Github Actions Maven Build Example
 
 on:
   push:
-    branches: [finalsoftware]
+    branches: [main]
     
 jobs:
   build-on-ubuntu:
