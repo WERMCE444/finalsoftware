@@ -17,7 +17,6 @@
          <sonar.host.url>https://sonarcloud.io</sonar.host.url>
         <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
        
-
     </properties>
 
          <build>
@@ -36,14 +35,12 @@
 
     <dependencies>
 
-
         <!-- https://mvnrepository.com/artifact/io.cucumber/cucumber-java -->
         <dependency>
             <groupId>io.cucumber</groupId>
             <artifactId>cucumber-java</artifactId>
             <version>7.11.2</version>
         </dependency>
-
 
         <!-- https://mvnrepository.com/artifact/io.cucumber/cucumber-picocontainer -->
         <dependency>
@@ -61,7 +58,6 @@
             <scope>test</scope>
         </dependency>
 
-
         <dependency>
             <groupId>javax.mail</groupId>
             <artifactId>javax.mail-api</artifactId>
@@ -77,3 +73,5 @@
             <artifactId>javax.mail</artifactId>
             <version>1.6.2</version>
         </dependency>
+    </dependencies>
+</project>   
